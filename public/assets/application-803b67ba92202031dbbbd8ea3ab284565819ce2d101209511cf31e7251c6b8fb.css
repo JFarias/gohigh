@@ -1,0 +1,193 @@
+/* line 1, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 22, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/*a {
+  color: #000;
+
+  &:visited {
+    color: #666;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}*/
+/* line 40, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 44, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 49, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 54, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 58, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 64, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 71, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 81, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 87, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+/* line 19, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/application.scss */
+.main {
+  width: 100%;
+  margin: auto;
+  padding: 15px;
+  display: -webkit-box;
+}
+
+/* line 26, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/application.scss */
+.wrapper {
+  margin: auto;
+  width: 80%;
+  webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 33, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/application.scss */
+.advertising {
+  width: 70%;
+  max-width: 800px;
+}
+
+/* line 37, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/application.scss */
+#ipay {
+  width: 30%;
+  padding: 20px;
+}
+
+/* line 46, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/application.scss */
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+/* line 53, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/application.scss */
+#amount {
+  padding: 20px;
+  font-family: vollkorn;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: #2e4369;
+}
+
+/* line 64, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/application.scss */
+#poster .font-weight-bold {
+  width: 100%;
+  font-family: vollkorn;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+/* line 73, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/application.scss */
+#bet {
+  padding-top: 20px;
+}
+/* line 74, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/application.scss */
+#bet .btn {
+  width: 100%;
+}
+
+/* line 80, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/application.scss */
+#icons {
+  padding-top: 7px;
+}
+/* line 82, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/application.scss */
+#icons .fa {
+  font-size: 2.3em;
+  margin: 5px;
+}
+
+/* line 88, /Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/application.scss */
+.carousel-control-prev, .carousel-control-next {
+  background-image: none !important;
+  filter: none !important;
+  opacity: 0.1 !important;
+  margin-left: -65px;
+  margin-right: -65px;
+  width: 5%;
+  top: 250px;
+  bottom: 250px;
+}

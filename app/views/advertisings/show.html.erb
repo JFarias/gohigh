@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @advertising.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @advertising.email %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @advertising.description %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @advertising.amount %>
+</p>
+
+<p>
+  <strong>Payment:</strong>
+  <%= @advertising.payment %>
+</p>
+
+<p>
+  <strong>Redirect link:</strong>
+  <%= @advertising.redirect_link %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @advertising.image %>
+</p>
+
+<%= link_to 'Edit', edit_advertising_path(@advertising) %> |
+<%= link_to 'Back', advertisings_path %>

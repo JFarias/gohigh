@@ -1,0 +1,142 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+.main {
+  width: 100%;
+  margin: auto;
+  padding: 15px;
+  display: -webkit-box;
+}
+
+.wrapper {
+  margin: auto;
+  width: 80%;
+  webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.advertising {
+  width: 70%;
+  max-width: 800px;
+}
+#ipay {
+  width: 30%;
+  padding: 20px;
+}
+
+.option {
+  .btn {
+    padding: 1.1rem 5rem;
+  };
+  width: 25%;
+  float: left;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+#steps {
+  width: 100%;
+}
+
+.upload-btn-wrapper {
+  .btn {
+    border: 1.3px solid gray;
+    color: gray;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.content{
+  width: 70%;
+  float: left;
+  margin-top: 50px;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  background-color: #eeeeee;
+}
+
+#form {
+
+}
+
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+
+
+#amount {
+  padding: 20px;
+  font-family: vollkorn;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: #2e4369;
+
+}
+
+#poster {
+  .font-weight-bold {
+    width: 100%;
+    font-family: vollkorn;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+}
+
+#bet {
+  .btn{
+    width: 100%;
+  }
+  padding-top: 20px;
+}
+
+#icons {
+  padding-top: 7px;
+  .fa {
+    font-size: 2.3em;
+    margin: 5px;
+  }
+}
+
+.carousel-control-prev, .carousel-control-next {
+  background-image:none !important;
+  filter:none !important;
+  opacity: 0.1 !important;
+  margin-left: -65px;
+  margin-right: -65px;
+  width: 5%;
+  top: 250px;
+  bottom: 250px;
+}

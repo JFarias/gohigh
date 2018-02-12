@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/jfarias/code/workspace/gohigh/config/mongoid.yml</file>
+            <file>file:/Users/jfarias/code/workspace/gohigh/app/models/advertising.rb</file>
+            <file>file:/Users/jfarias/code/workspace/gohigh/config/initializers/assets.rb</file>
+            <file>file:/Users/jfarias/code/workspace/gohigh/Gemfile</file>
+            <file>file:/Users/jfarias/code/workspace/gohigh/app/controllers/advertisings_controller.rb</file>
+            <file>file:/Users/jfarias/code/workspace/gohigh/config/application.rb</file>
+            <file>file:/Users/jfarias/code/workspace/gohigh/app/assets/stylesheets/application.css</file>
+            <file>file:/Users/jfarias/code/workspace/gohigh/app/controllers/application_controller.rb</file>
+            <file>file:/Users/jfarias/code/workspace/gohigh/app/views/layouts/application.html.erb</file>
+            <file>file:/Users/jfarias/code/workspace/gohigh/app/views/advertisings/index.html.erb</file>
+            <file>file:/Users/jfarias/code/workspace/gohigh/config/routes.rb</file>
+            <file>file:/Users/jfarias/code/workspace/gohigh/app/views/home/index.html.erb</file>
+            <file>file:/Users/jfarias/code/workspace/gohigh/app/helpers/application_helper.rb</file>
+        </group>
+    </open-files>
+</project-private>

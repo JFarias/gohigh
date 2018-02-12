@@ -1,0 +1,57 @@
+<%= form_with(model: advertising, html: { multipart: true }, local: true) do |form| %>
+  <% if advertising.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(advertising.errors.count, "error") %> prohibited this advertising from being saved:</h2>
+
+      <ul>
+      <% advertising.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :advertising_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_field :email, id: :advertising_email %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_area :description, id: :advertising_description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :amount %>
+    <%= form.number_field :amount, id: :advertising_amount %>
+  </div>
+
+  <div class="field">
+    <%= form.label :payment %>
+    <%= form.text_field :payment, id: :advertising_payment %>
+  </div>
+
+  <div class="field">
+    <%= form.label :redirect_link %>
+    <%= form.text_field :redirect_link, id: :advertising_redirect_link %>
+  </div>
+
+  <div class="field">
+    <%= form.label :image %>
+    <%= form.file_field :image, id: :advertising_image %>
+
+  </div>
+
+  <div class="field">
+    <span><%= advertising.image %></span>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
